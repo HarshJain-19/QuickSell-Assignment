@@ -20,7 +20,7 @@ const Section = ({head, group, reqData, avail, uid, order}) => {
                   </div>) 
                   : (<img src={Data.icons[head.toLowerCase()]} alt="" />)
               }
-              {head} {1}
+              {head} {rData.length}
               <div className="right">
                 + <img src={Data.icons.more} alt="" />
               </div>
